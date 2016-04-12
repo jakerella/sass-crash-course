@@ -1,0 +1,27 @@
+p {
+    color: red;
+}
+
+p a {
+    text-decoration: none;
+
+    &:visited {
+        background-color: #dddddd;
+    }
+    &:hover {
+        background-color: #ffdddd;
+        font-style: italic;
+    }
+    &:active {
+        font-size: 2em;
+    }
+}
+
+article {
+    border: 2px solid $themeDark;
+    width: $pageWidth * 0.66;
+}
+
+ul.rules li:nth-child(odd) {
+    background-color: #cccccc;
+}

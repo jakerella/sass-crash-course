@@ -1,0 +1,46 @@
+.wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+nav {
+  border-bottom: 2px solid #666666; }
+  nav ul {
+    margin: 0;
+    padding: 0; }
+  nav li {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    background-color: #ddddff;
+    height: 192px;
+    width: 192px;
+    border: 1px solid blue; }
+    nav li.first {
+      background-color: blue; }
+
+p {
+  color: red; }
+
+p a {
+  text-decoration: none; }
+  p a:visited {
+    background-color: #dddddd; }
+  p a:hover {
+    background-color: #ffdddd;
+    font-style: italic; }
+  p a:active {
+    font-size: 2em; }
+
+article {
+  border: 2px solid blue;
+  width: 633.6px; }
+
+ul.rules li:nth-child(odd) {
+  background-color: #cccccc; }
+
+h1 {
+  font-style: italic; }
+
+/* This is also a comment */
+
+/*# sourceMappingURL=main.css.map */
